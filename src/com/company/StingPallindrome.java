@@ -11,12 +11,6 @@ public class StingPallindrome {
         System.out.println(rev);
         System.out.println(text);
 
-        if(rev==text1){
-            System.out.println("The string is pallindrome");
-        }
-        else{
-            System.out.println("The string is not pallindrome");
-
-        }
+       
     }
 }
