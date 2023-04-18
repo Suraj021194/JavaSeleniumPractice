@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class ArmStrong {
     public static void main(String[] args) {
 
-        int n = 169;
+        System.out.println("Enter a number: ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int rev = 0;
 
         while (n != 0) {
